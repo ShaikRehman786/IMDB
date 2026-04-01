@@ -1,0 +1,134 @@
+[
+  {
+    "id": "tt0111161",
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "poster": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_SX300.jpg",
+    "genre": "Drama",
+    "director": "Frank Darabont",
+    "actors": "Tim Robbins, Morgan Freeman, Bob Gunton",
+    "plot": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "imdb": 9.3
+  },
+  {
+    "id": "tt0068646",
+    "title": "The Godfather",
+    "year": 1972,
+    "poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzAwMjU2MTA@._V1_SX300.jpg",
+    "genre": "Crime, Drama",
+    "director": "Francis Ford Coppola",
+    "actors": "Marlon Brando, Al Pacino, James Caan",
+    "plot": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+    "imdb": 9.2
+  },
+  {
+    "id": "tt0468569",
+    "title": "The Dark Knight",
+    "year": 2008,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
+    "genre": "Action, Crime, Drama",
+    "director": "Christopher Nolan",
+    "actors": "Christian Bale, Heath Ledger, Aaron Eckhart",
+    "plot": "When the menace known as the Joker emerges, he causes chaos and tests Batman's resolve.",
+    "imdb": 9.0
+  },
+  {
+    "id": "tt0109830",
+    "title": "Forrest Gump",
+    "year": 1994,
+    "poster": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+    "genre": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actors": "Tom Hanks, Robin Wright, Gary Sinise",
+    "plot": "The presidencies of Kennedy and Johnson, the Vietnam War, and other history unfold through the perspective of an Alabama man.",
+    "imdb": 8.8
+  },
+  {
+    "id": "tt0137523",
+    "title": "Fight Club",
+    "year": 1999,
+    "poster": "https://m.media-amazon.com/images/M/MV5BNDIzNDU0YzEtYzE5Ni00ZjlkLTk5ZjgtNjM3NWE4YzA3Nzk3XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
+    "genre": "Drama, Thriller",
+    "director": "David Fincher",
+    "actors": "Brad Pitt, Edward Norton, Helena Bonham Carter",
+    "plot": "An insomniac office worker and a soap maker form an underground fight club.",
+    "imdb": 8.8
+  },
+  {
+    "id": "tt1375666",
+    "title": "Inception",
+    "year": 2010,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
+    "genre": "Action, Adventure, Sci-Fi",
+    "director": "Christopher Nolan",
+    "actors": "Leonardo DiCaprio, Marion Cotillard, Tom Hardy",
+    "plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given an inverse task.",
+    "imdb": 8.8
+  },
+  {
+    "id": "tt0120737",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": 2001,
+    "poster": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg",
+    "genre": "Adventure, Drama, Fantasy",
+    "director": "Peter Jackson",
+    "actors": "Elijah Wood, Ian McKellen, Orlando Bloom",
+    "plot": "A meek Hobbit and eight companions set out on a journey to destroy the One Ring.",
+    "imdb": 8.8
+  },
+  {
+    "id": "tt0102926",
+    "title": "The Silence of the Lambs",
+    "year": 1991,
+    "poster": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+    "genre": "Crime, Drama, Thriller",
+    "director": "Jonathan Demme",
+    "actors": "Jodie Foster, Anthony Hopkins, Scott Glenn",
+    "plot": "A young FBI cadet seeks the help of an imprisoned cannibal killer to catch another killer.",
+    "imdb": 8.6
+  },
+  {
+    "id": "tt0110912",
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+    "genre": "Crime, Drama",
+    "director": "Quentin Tarantino",
+    "actors": "John Travolta, Uma Thurman, Samuel L. Jackson",
+    "plot": "The lives of two mob hitmen, a boxer, and a gangster's wife intertwine in tales of violence and redemption.",
+    "imdb": 8.9
+  },
+  {
+    "id": "tt0317248",
+    "title": "City of God",
+    "year": 2002,
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTMwYjc5ZmItYTFjZC00ZGQ3LTlkNTMtMjZiNTZlMWQzNzI5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+    "genre": "Crime, Drama",
+    "director": "Fernando Meirelles, Kátia Lund",
+    "actors": "Alexandre Rodrigues, Leandro Firmino, Matheus Nachtergaele",
+    "plot": "Two boys growing up in a violent neighborhood of Rio de Janeiro take different paths.",
+    "imdb": 8.6
+  },
+  {
+    "id": "tt0080684",
+    "title": "The Empire Strikes Back",
+    "year": 1980,
+    "poster": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+    "genre": "Action, Adventure, Fantasy",
+    "director": "Irvin Kershner",
+    "actors": "Mark Hamill, Harrison Ford, Carrie Fisher",
+    "plot": "After the Rebels are overpowered by the Empire, Luke Skywalker begins Jedi training.",
+    "imdb": 8.7
+  },
+  {
+    "id": "tt0209144",
+    "title": "Memento",
+    "year": 2000,
+    "poster": "https://m.media-amazon.com/images/M/MV5BZTcyNjk1MjgtOWI3Mi00YzQwLWI5MTktMzY4ZmI2NDAyNzYzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+    "genre": "Mystery, Thriller",
+    "director": "Christopher Nolan",
+    "actors": "Guy Pearce, Carrie-Anne Moss, Joe Pantoliano",
+    "plot": "A man with short-term memory loss attempts to track down his wife's murderer.",
+    "imdb": 8.4
+  }
+]

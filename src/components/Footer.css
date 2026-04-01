@@ -1,0 +1,91 @@
+/* Footer — Premium Minimal Design */
+.footer {
+  background: var(--bg-surface);
+  border-top: 1px solid var(--border-subtle);
+  flex-shrink: 0;
+}
+
+.footer-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 32px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-logo-icon {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gradient-red);
+  border-radius: var(--radius-md);
+  color: white;
+}
+
+.footer-logo-icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+.footer-logo-text {
+  font-family: var(--font-body);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  display: flex;
+  gap: 2px;
+}
+
+.footer-movie {
+  color: var(--text-primary);
+}
+
+.footer-zone {
+  color: var(--accent-red);
+}
+
+.footer-tagline {
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.footer-copyright {
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--text-tertiary);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    height: auto;
+    padding: 20px;
+  }
+
+  .footer {
+    height: auto;
+  }
+
+  .footer-tagline {
+    order: 2;
+  }
+
+  .footer-copyright {
+    order: 3;
+  }
+}

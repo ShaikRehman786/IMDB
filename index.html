@@ -1,81 +1,21 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MovieZone - Discover Movies</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <nav class="navbar">
-            <div class="nav-brand">
-                <i class="fas fa-film"></i>
-                <h1>MovieZone</h1>
-            </div>
-            
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search movies..." autocomplete="off">
-                <button id="searchBtn" type="button">
-                    <i class="fas fa-search"></i>
-                </button>
-            </div>
-
-            <div class="nav-controls">
-                <select id="sortSelect">
-                    <option value="title">Sort by Title</option>
-                    <option value="year">Sort by Year</option>
-                    <option value="rating">Sort by Rating</option>
-                </select>
-                <button id="favoritesBtn" class="favorites-btn">
-                    <i class="fas fa-heart"></i>
-                    <span>Favorites</span>
-                </button>
-            </div>
-        </nav>
-    </header>
-
-    <main>
-        <div class="filter-section">
-            <div class="filter-controls">
-                <select id="genreFilter">
-                    <option value="">All Genres</option>
-                </select>
-                <select id="yearFilter">
-                    <option value="">All Years</option>
-                </select>
-                <button id="clearFilters">Clear Filters</button>
-            </div>
-        </div>
-
-        <div class="loading" id="loading" style="display: none;">
-            <i class="fas fa-spinner fa-spin"></i>
-            <p>Loading movies...</p>
-        </div>
-
-        <div class="movies-container" id="moviesContainer">
-            <!-- Movies will be displayed here -->
-        </div>
-
-        <div class="no-results" id="noResults" style="display: none;">
-            <i class="fas fa-search"></i>
-            <h3>No movies found</h3>
-            <p>Try adjusting your search or filters</p>
-        </div>
-    </main>
-
-    <!-- Movie Detail Modal -->
-    <div class="modal" id="movieModal">
-        <div class="modal-content">
-            <span class="close-btn" id="closeModal">&times;</span>
-            <div class="modal-body" id="modalBody">
-                <!-- Movie details will be loaded here -->
-            </div>
-        </div>
-    </div>
-
-    <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovieZone - Discover. Explore. Watch.</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@600;700;800&family=Inter:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

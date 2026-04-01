@@ -1,0 +1,138 @@
+/* ========================================
+   Favorites View Styles
+   ======================================== */
+
+.favorites-view {
+  min-height: 100vh;
+}
+
+/* ========================================
+   Favorites Hero
+   ======================================== */
+
+.favorites-hero {
+  position: relative;
+  padding: var(--spacing-2xl);
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+  overflow: hidden;
+}
+
+.favorites-hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Icon Wrapper */
+.favorites-icon-wrapper {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto var(--spacing-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.favorites-icon-bg {
+  position: absolute;
+  inset: 0;
+  background: var(--gradient-red);
+  border-radius: 50%;
+  opacity: 0.2;
+  animation: pulse-bg 2s ease-in-out infinite;
+}
+
+@keyframes pulse-bg {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.2;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.3;
+  }
+}
+
+.favorites-icon-wrapper i {
+  position: relative;
+  z-index: 1;
+  font-size: 3rem;
+  color: var(--accent-red);
+  filter: drop-shadow(0 4px 10px rgba(229, 9, 20, 0.4));
+}
+
+/* Title & Subtitle */
+.favorites-title {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-sm);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.favorites-subtitle {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  font-weight: 300;
+}
+
+/* ========================================
+   Decorative Floating Hearts
+   ======================================== */
+
+.favorites-decorative {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.floating-heart {
+  position: absolute;
+  bottom: 0;
+  color: var(--accent-red);
+  font-size: 1.5rem;
+  opacity: 0;
+}
+
+/* ========================================
+   Favorites Content
+   ======================================== */
+
+.favorites-content {
+  padding: 0 var(--spacing-lg) var(--spacing-2xl);
+}
+
+/* ========================================
+   Responsive Design
+   ======================================== */
+
+@media (max-width: 768px) {
+  .favorites-hero {
+    padding: var(--spacing-xl) var(--spacing-lg);
+  }
+
+  .favorites-icon-wrapper {
+    width: 80px;
+    height: 80px;
+  }
+
+  .favorites-icon-wrapper i {
+    font-size: 2.5rem;
+  }
+
+  .favorites-title {
+    font-size: 2rem;
+  }
+
+  .favorites-subtitle {
+    font-size: 1rem;
+  }
+
+  .floating-heart {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,73 @@
+/* Movies Content Wrapper — prevents filter bar overlap */
+.movies-content-wrapper {
+  /* Padding is applied inline via style prop */
+  /* paddingTop: filterHeight + 60 (navbar height) */
+}
+
+/* Favorites Page */
+.favorites-page {
+  padding: 48px 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.favorites-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.favorites-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(229, 9, 20, 0.1);
+  border-radius: 50%;
+  color: var(--red);
+}
+
+.favorites-icon svg {
+  width: 32px;
+  height: 32px;
+}
+
+.favorites-title {
+  font-family: var(--font-body);
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.favorites-subtitle {
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .favorites-page {
+    padding: 32px 16px;
+  }
+
+  .favorites-header {
+    margin-bottom: 32px;
+  }
+
+  .favorites-icon {
+    width: 56px;
+    height: 56px;
+  }
+
+  .favorites-icon svg {
+    width: 28px;
+    height: 28px;
+  }
+
+  .favorites-title {
+    font-size: 24px;
+  }
+}
